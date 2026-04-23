@@ -22,7 +22,7 @@ import logging
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
 sqs = boto3.client('sqs')
-sqs_url = 'https://sqs.us-east-1.amazonaws.com/369147666653/DiningConciergeSQS'
+sqs_url = 'https://sqs.us-east-1.amazonaws.com/369g6653/DiningConciergeSQS'
 
 min_number = 1
 max_number = 15
