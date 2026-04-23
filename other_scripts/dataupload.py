@@ -4,8 +4,8 @@ import time
 from decimal import Decimal
 # Initialize the DynamoDB resource and specify your region
 
-aws_access_key_id = 'AKIAVL4XKMDOSMYFZ47U'
-aws_secret_access_key = 'aAeIOn3UwJg5a6sQap3mZKAnoQ7pk/XGlPeG3XwF'
+aws_access_key_id = 'AZ47U'
+aws_secret_access_key = 'aAegfgfgeG3XwF'
 
 import os
 os.environ['AWS_ACCESS_KEY_ID'] = aws_access_key_id
