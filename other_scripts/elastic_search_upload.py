@@ -2,8 +2,8 @@ import json
 from requests_aws4auth import AWS4Auth
 import boto3
 import requests
-aws_access_key_id = 'AKIAVL4XKMDOSMYFZ47U'
-aws_secret_access_key = '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'
+aws_access_key_id = 'AK7U'
+aws_secret_access_key = 'aAeIOndsfdgfk/XdfgwF'
 import os
 os.environ['AWS_ACCESS_KEY_ID'] = aws_access_key_id
 os.environ['AWS_SECRET_ACCESS_KEY'] = aws_secret_access_key
