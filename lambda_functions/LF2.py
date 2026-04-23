@@ -22,7 +22,7 @@ sqs = boto3.client('sqs')
 dynamodb = boto3.resource('dynamodb')
 
 # LF2 constants
-sqs_url = 'https://sqs.us-east-1.amazonaws.com/369147666653/DiningConciergeSQS'
+sqs_url = 'https://sqs.us-east-1.amazonaws.com/3gdrf653/DiningConciergeSQS'
 max_poll = 10
 es_endpoint = 'https://search-restaurants-pu5mxm7ts6gebt7lfzqfd32uri.us-east-1.es.amazonaws.com/'
 es_index = 'restaurant'
